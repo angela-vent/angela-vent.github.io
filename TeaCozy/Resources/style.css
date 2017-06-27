@@ -6,7 +6,6 @@ body{
   opacity: 0.9;
   justify-content: center;
   text-align: center;
-  /*overflow: scroll;*/
 }
 
 /*HEADER*/
@@ -38,40 +37,43 @@ header span a{
   text-decoration: underline;
 }
 
-/*BODY*/
+/*MAIN BODY*/
 
 section{
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   position: relative;
   top: 69px;
   flex-wrap: wrap;
-  overflow: scroll;
+  overflow: scroll;*/
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
 }
-.mission{
+#mission{
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
   padding-top: 69px;
-  position: relative;
-  left: 69px;
+  /*position: relative;
+  left: 69px;*/
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   width: 1200px;
   height: 700px;
   margin: 0 auto;
 }
-.mission h2,h4{
+#mission h2,h4{
   z-index: 10px;
   background-color: black;
   width: 100%;
   padding: 10px 0px;
   margin: 0 auto;
 }
-.tea{
+#tea{
   width: 1000px;
   margin: 0 auto;
   padding: 10px 0px;
@@ -91,29 +93,39 @@ section{
   height: 200px;
   padding: 10px 15px;
 }
-.locations{
-  display: flex;
+#locations{
+  /*display: flex;*/
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   /*flex-direction: column;*/
-  flex-wrap: nowrap;
-  justify-content: center;
+  /*flex-wrap: nowrap;*/
+  /*justify-content: center;
   align-items: center;
-  align-content: space-around;
+  align-content: space-around;*/
   height: 500px;
   width: 1200px;
+  padding-top: 70px;
 }
 .locations h2{
   opacity: 1;
 
 }
-.locations div{
+.locationsflex{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  /*align-items: center;*/
+  margin: auto;
+  justify-content: center;
+  /*flex-direction: column;*/
+}
+.locationsflex div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: black;
   opacity: 1;
-  margin: 15px 20px;
+  margin: 5px 20px;
   padding: 10px;
-  width: 300px;
-  align-items: center;
-  justify-content: center;
 }
 .contact{
   /*display: flex;*/
